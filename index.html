@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Learning Management System</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-book-fill me-2"></i>EduLearn
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-light text-primary ms-2 px-3" href="#signup">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold mb-4 text-white">
+                        Learn Anytime,<br>Anywhere
+                    </h1>
+                    <p class="lead mb-4 text-white-50">
+                        Transform your learning journey with our comprehensive Learning Management System. 
+                        Access thousands of courses, track your progress, and achieve your goals.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#signup" class="btn btn-light btn-lg px-4">
+                            Get Started <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                        <a href="#courses" class="btn btn-outline-light btn-lg px-4">
+                            Browse Courses
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image">
+                        <i class="bi bi-laptop display-1 text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3">Why Choose EduLearn?</h2>
+                <p class="lead text-muted">Everything you need to succeed in your learning journey</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-speedometer2"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Fast & Reliable</h4>
+                        <p class="text-muted">Experience lightning-fast performance with our optimized platform that works seamlessly across all devices.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Expert Instructors</h4>
+                        <p class="text-muted">Learn from industry experts and experienced educators who are passionate about your success.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Track Progress</h4>
+                        <p class="text-muted">Monitor your learning progress with detailed analytics and personalized insights to stay on track.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-award-fill"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Certificates</h4>
+                        <p class="text-muted">Earn recognized certificates upon course completion to showcase your achievements.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-chat-dots-fill"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Interactive Learning</h4>
+                        <p class="text-muted">Engage with interactive content, quizzes, and discussions to enhance your learning experience.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-mobile"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Mobile Friendly</h4>
+                        <p class="text-muted">Learn on the go with our fully responsive platform that works perfectly on any device.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3">Popular Courses</h2>
+                <p class="lead text-muted">Explore our most popular courses and start learning today</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card course-card h-100 shadow-sm">
+                        <div class="card-img-top course-image bg-primary d-flex align-items-center justify-content-center">
+                            <i class="bi bi-code-slash text-white display-4"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Web Development</span>
+                            <h5 class="card-title fw-bold">Full Stack Web Development</h5>
+                            <p class="card-text text-muted">Master HTML, CSS, JavaScript, and modern frameworks to build amazing web applications.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="ms-1">4.8</span>
+                                    <span class="text-muted ms-2">(1,234)</span>
+                                </div>
+                                <span class="fw-bold text-primary">$99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card course-card h-100 shadow-sm">
+                        <div class="card-img-top course-image bg-success d-flex align-items-center justify-content-center">
+                            <i class="bi bi-graph-up text-white display-4"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Data Science</span>
+                            <h5 class="card-title fw-bold">Data Science & Analytics</h5>
+                            <p class="card-text text-muted">Learn Python, machine learning, and data visualization to become a data scientist.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="ms-1">4.9</span>
+                                    <span class="text-muted ms-2">(856)</span>
+                                </div>
+                                <span class="fw-bold text-primary">$129</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card course-card h-100 shadow-sm">
+                        <div class="card-img-top course-image bg-danger d-flex align-items-center justify-content-center">
+                            <i class="bi bi-palette-fill text-white display-4"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Design</span>
+                            <h5 class="card-title fw-bold">UI/UX Design Masterclass</h5>
+                            <p class="card-text text-muted">Create stunning user interfaces and experiences with modern design principles and tools.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="ms-1">4.7</span>
+                                    <span class="text-muted ms-2">(642)</span>
+                                </div>
+                                <span class="fw-bold text-primary">$89</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#courses" class="btn btn-primary btn-lg px-5">View All Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3">What Our Students Say</h2>
+                <p class="lead text-muted">Hear from learners who transformed their careers</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text text-muted mb-3">"EduLearn has completely transformed my career. The courses are well-structured and the instructors are amazing. I landed my dream job after completing the web development course!"</p>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                                    <i class="bi bi-person-fill"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Sarah Johnson</h6>
+                                    <small class="text-muted">Software Developer</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text text-muted mb-3">"The best investment I've made in my education. The platform is intuitive, the content is top-notch, and the support team is always ready to help. Highly recommended!"</p>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                                    <i class="bi bi-person-fill"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Michael Chen</h6>
+                                    <small class="text-muted">Data Analyst</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text text-muted mb-3">"As a working professional, I needed flexibility. EduLearn allowed me to learn at my own pace while maintaining my job. The mobile app is fantastic!"</p>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar bg-danger text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                                    <i class="bi bi-person-fill"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Emily Rodriguez</h6>
+                                    <small class="text-muted">UX Designer</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="signup" class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="display-5 fw-bold mb-3">Ready to Start Learning?</h2>
+                    <p class="lead mb-0">Join thousands of students already learning on EduLearn. Start your journey today!</p>
+                </div>
+                <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+                    <a href="#signup" class="btn btn-light btn-lg px-5">Sign Up Free</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-book-fill me-2"></i>EduLearn
+                    </h5>
+                    <p class="text-white-50">Your trusted partner in online learning. Empowering learners worldwide to achieve their goals.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li><a href="#features" class="text-white-50 text-decoration-none">Features</a></li>
+                        <li><a href="#courses" class="text-white-50 text-decoration-none">Courses</a></li>
+                        <li><a href="#testimonials" class="text-white-50 text-decoration-none">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold mb-3">Support</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none">Help Center</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Contact Us</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">FAQ</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="text-white-50 mb-3">Subscribe to get updates on new courses and special offers.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-white-50">
+            <div class="text-center text-white-50">
+                <p class="mb-0">&copy; 2024 EduLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
